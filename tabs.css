@@ -12,10 +12,13 @@
 }
 .container__tab {
   height: 40px;
-  display: block;
+  display: flex;
 }
 
 .container-tabs__1 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   text-align: center;
   line-height: 40px;
   color: #333;
@@ -33,29 +36,36 @@
 }
 
 .container-tabs__2 {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 1px solid #c6cbcd;
   text-align: center;
   line-height: 40px;
-  display: inline-block;
   width: 184px;
   height: 40px;
 }
 
 .container-tabs__3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 1px solid #c6cbcd;
   text-align: center;
   line-height: 40px;
-  display: inline-block;
   width: 184px;
   height: 40px;
 }
 
 .container-tabs__4 {
-  background-color: black;
-  width: 600px;
-  display: inline-block;
+  border-bottom: 1px solid #c6cbcd;
+  width: 587px;
+  height: 40px;
 }
 .main {
   height: 502px;
-  border-top: 1px solid #c6cbcd;
   border-left: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
 }
