@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+.price {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container--price {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+}
+
+.price__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.horizontal-line {
+  background: #ec7979;
+
+  width: 170px;
+  height: 1px;
+}
+.price__subtitle {
+  color: #86878b;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 40px;
+}
+.price-options {
+  display: flex;
+  justify-content: center;
+}
+.price-options__basic {
+  padding-bottom: 50px;
+  margin-top: 79px;
+  padding-right: 30px;
+}
+
+.price-options__basic * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-options__optima {
+  margin-top: 59px;
+  padding-right: 30px;
+}
+
+.price-options__optima * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-options__pro {
+  margin-top: 79px;
+}
+
+.price-options__pro * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-options__item {
+  margin: 0;
+  width: 370px;
+  height: 50px;
+  color: #86878b;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  border: 2px solid #f5f5f5;
+  background: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.price-options__title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  width: 369px;
+  height: 60px;
+  color: #fff;
+  background-color: #333;
+}
+.price-options__cost {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 369px;
+  height: 100px;
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  border-top: 1px solid white;
+}
+.price-options__comment {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 370px;
+  height: 50px;
+  border: 2px solid #f5f5f5;
+  background: #333;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}

@@ -5,12 +5,12 @@
 .container {
   width: 100%;
 }
-.container-tabs {
+.tabs {
   width: 1170px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
-.container__tab {
+.container-tabs {
   height: 40px;
   display: flex;
 }
@@ -69,12 +69,12 @@
   border-left: 1px solid #c6cbcd;
   border-bottom: 1px solid #c6cbcd;
 }
-.container-tabs__left {
+.main-left {
   padding-left: 100px;
   vertical-align: top;
   display: inline-block;
 }
-.tabs__left-title {
+.main-left__title {
   margin: 0;
   margin-bottom: 27px;
   height: 124px;
@@ -82,7 +82,7 @@
   font-size: 30px;
   font-family: "Open Sans", sans-serif;
 }
-.tabs__left-text {
+.main-left__text {
   height: 210px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -91,7 +91,7 @@
   vertical-align: top;
 }
 
-.tabs__left-botton {
+.main-left__botton {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -102,13 +102,13 @@
   color: #ffffff;
 }
 
-.container-tabs__right {
+.main-right {
   width: 40%;
   height: 500px;
   display: inline-block;
   margin-left: 25px;
 }
-.tabs__right-picture {
+.main-right__picture {
   width: 470px;
   height: 501px;
 }
