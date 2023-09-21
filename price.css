@@ -2,17 +2,14 @@
   box-sizing: border-box;
 }
 
-.container {
+.container__price {
   width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 50px;
 }
 .price {
   width: 1170px;
   margin: 0 auto;
-}
-
-.container--price {
-  background-color: #f5f5f5;
-  padding-top: 50px;
 }
 
 .price__title {
@@ -26,7 +23,7 @@
   text-transform: uppercase;
 }
 .horizontal-line {
-  background: #ec7979;
+  background-color: #ec7979;
 
   width: 170px;
   height: 1px;

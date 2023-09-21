@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-top: 50px;
+}
+.customers {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.customers__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.horizontal-line {
+  border: none;
+  background-color: #ec7979;
+
+  width: 170px;
+  height: 1px;
+}
+.customers__subtitle {
+  color: #86878b;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 83px;
+}
+.customers-review {
+  display: flex;
+}
+
+.customers-review-block {
+  display: flex;
+  flex-direction: column;
+}
+.customers-review__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+
+  width: 370px;
+  height: 180px;
+
+  border-radius: 10px;
+  background-color: #e2e2e2;
+
+  color: #86878b;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.customers__icon {
+  display: flex;
+
+  margin-left: 70px;
+
+  height: 20px;
+  width: 30px;
+}
+
+.customers-review-person {
+  margin-top: 66px;
+  display: flex;
+}
+
+.review-person__name {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+
+  width: 269px;
+  margin-left: 30px;
+}
+.review-person__photo {
+  width: 70px;
+  height: 70px;
+}
+.review-person__status {
+  margin-left: 30px;
+  margin-top: 15px;
+
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
