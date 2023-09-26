@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  width: 1510px;
+
+  background-color: black;
+}
+.header-logo {
+  margin-left: 115px;
+  margin-right: 470px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__item {
+  display: inline-flex;
+  list-style: none;
+  width: 113px;
+  height: 100%;
+
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
