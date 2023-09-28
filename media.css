@@ -1,9 +1,14 @@
+.media-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f8efef;
+}
 .media {
   display: flex;
   flex-direction: row;
   width: 1510px;
   height: 140px;
-  background-color: #f8efef;
 }
 .media-info {
   margin-left: 170px;
@@ -44,5 +49,5 @@
   height: 70px;
   gap: 30px;
 }
-.media-icons__app {
-}
+/* .media-icons__app {
+} */

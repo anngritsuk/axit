@@ -1,10 +1,14 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
 .header {
   display: flex;
   flex-direction: row;
   height: 75px;
   width: 1510px;
-
-  background-color: black;
 }
 .header-logo {
   margin-left: 115px;

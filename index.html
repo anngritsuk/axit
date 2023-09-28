@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="./customers.css" />
     <link rel="stylesheet" href="./media.css" />
     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./axure.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./banner.css">
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Qwitcher+Grypen:wght@700&family=Raleway&display=swap"
       rel="stylesheet"
@@ -26,8 +31,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Qwitcher+Grypen:wght@700&family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .colortext {
+        color: #ec7979;
+      }
+     </style>
   </head>
   <body>
+    <div class="header-container">
     <header class="header">
 <img class="header-logo" src="./img/logo.svg"></img>
 <nav class="header-nav">
@@ -40,6 +51,37 @@
   </ul>
 </nav>
     </header>
+  </div>
+
+
+  <div class="container-banner">
+<div class="banner">
+  <div class="banner-info">
+    <div class="banner-logo">
+  <img class="banner-logo__item" src="./img/logo-banner.svg">
+  <img class="banner-logo__item" src="./img/logo-banner-2.svg">
+  </div>
+  <div class="banner__title">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL<br> PROTOTYPES</div>
+  <hr class="banner-horizontal-line" />
+  <div class="banner__subtitle">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</div>
+  <button class="banner__button">Download</button>
+</div>
+<form class="banner-form">
+  <div class="banner-form__title">Try Your<span class="colortext"> FREE </span>Trial Today</div>
+  <input class="banner-form__input" type="text" placeholder="Name">
+          <hr class="form-horizontal-line-input" />
+          <input class="banner-form__input" type="email" placeholder="Email">
+          <hr class="form-horizontal-line-input" />
+          <input  class="banner-form__input" type="password" placeholder="Password">
+          <hr class="form-horizontal-line-input" />
+          <div class="form-button">
+            <button class="banner-form__button" type="submit">Get Started</button>
+          </div>
+</form>
+</div>
+  </div>
+
+  <div class="media-container">
     <div class="media">
       <div class="media-info">
         <div class="media-info__title">Social Media</div>
@@ -56,6 +98,7 @@
         <img class="media-icons__app" src="./img/rss_icon.svg"></img>
       </div>
     </div>
+  </div>
     <div class="container">
       <div class="tabs">
         <div class="container-tabs">
@@ -133,6 +176,7 @@
         </div>
       </div>
     </div>
+
     <div class="container__price">
       <div class="price">
         <h2 class="price__title">pricing options</h2>
@@ -174,6 +218,7 @@
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="customers">
         <h2 class="customers__title">what our customers are saying</h2>
@@ -230,13 +275,60 @@
         </section>
           </div>
           </div>
-    </div>
+
+
+    <div class="axure-container">
     <div class="axure">
-      <img class="axure__image" src="">
-      <div class="axure__title">STYLISH AXURE DESIGN</div>
+      <h2 class="axure__title">STYLISH AXURE DESIGN</h2>
+      <hr class="horizontal-line" />
       <div class="axure__subtitle">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</div>
-   <button class="axure__button">Download</button>
-   
+    <button class="axure__button">Download</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <form class="container-contact">
+      <div class="contact">
+        <h2 class="contact__title">contact us</h2>
+          <hr class="horizontal-line" />
+          <div class="contact__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+      </div>
+      <div class="form">
+        <div class="form-input">
+          <input class="contact-form__input" type="text" placeholder="Name">
+          <hr class="horizontal-line-input" />
+          <input class="contact-form__input" type="email" placeholder="Email">
+          <hr class="horizontal-line-input" />
+          <input  class="contact-form__input" type="password" placeholder="Password">
+          <hr class="horizontal-line-input" />
+        </div>
+        <div class="textarea">
+          <textarea class="contact-form__textarea" name="text">Message</textarea>
+          <hr class="horizontal-line-input" />
+        </div>
+      </div>
+      <div class="button">
+        <button class="contact-form__button" type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+
+
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-icons">
+          <img class="footer-icons__app" src="./img/facebook_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/twitter_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/linkedin_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/pinterest_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/instagram_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/github_icon.svg"></img>
+        <img class="footer-icons__app" src="./img/rss_icon.svg"></img>
+        </div>
+        <div class="footer-comment">© 2015 Axure Themes</div>
+      </div>
     </div>
   </body>
 </html>

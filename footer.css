@@ -1,0 +1,37 @@
+.footer-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  width: 1510px;
+  height: 164px;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 35px;
+  gap: 32.8px;
+}
+.footer-icons__app {
+  width: 53.2px;
+  height: 53.2px;
+}
+.footer-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 27.8px;
+
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+}

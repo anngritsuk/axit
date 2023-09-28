@@ -8,6 +8,7 @@
 }
 
 .container__awesome-title {
+  font-weight: 400;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: "Raleway", sans-serif;
