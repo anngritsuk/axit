@@ -1,9 +1,8 @@
-.container {
-  width: 100%;
-}
-
 .container__awesome {
-  width: 1170px;
+  max-width: 1200px;
+  width: 100%;
+
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -30,15 +29,17 @@
 .container__main {
   margin-top: 71px;
   margin-bottom: 58px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 
   width: 100%;
 }
 
 .container__main-block {
-  display: inline-block;
-
   text-align: center;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .container__main-block-img {

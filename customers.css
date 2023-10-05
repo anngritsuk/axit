@@ -1,14 +1,15 @@
-* {
-  box-sizing: border-box;
-}
-
 .container {
   width: 100%;
+  display: flex;
   padding-top: 50px;
 }
 .customers {
-  width: 1170px;
+  max-width: 1200px;
+  width: 100%;
+
+  padding: 0 15px;
   margin: 0 auto;
+  padding-bottom: 64px;
 }
 
 .customers__title {
@@ -40,6 +41,9 @@
 }
 .customers-review {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .customers-review-block {
@@ -50,10 +54,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
+  padding: 20px;
 
-  width: 370px;
-  height: 180px;
+  width: 100%;
+  min-height: 180px;
 
   border-radius: 10px;
   background-color: #e2e2e2;
@@ -75,30 +79,25 @@
 
 .customers-review-person {
   margin-top: 66px;
+  width: 100%;
   display: flex;
+  gap: 30px;
 }
 
 .review-person__name {
-  margin-top: 0;
-  margin-bottom: 0;
-
   color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   text-transform: capitalize;
   font-weight: 700;
 
-  width: 269px;
-  margin-left: 30px;
+  margin-bottom: 15px;
 }
 .review-person__photo {
   width: 70px;
   height: 70px;
 }
 .review-person__status {
-  margin-left: 30px;
-  margin-top: 15px;
-
   color: #000;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
