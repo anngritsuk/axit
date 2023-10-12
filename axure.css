@@ -90,3 +90,24 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
+@media (max-width: 1025px) {
+  .axure__button {
+    width: 318px;
+  }
+  .axure__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .axure__button {
+    width: 288px;
+  }
+  .axure__subtitle {
+    margin-bottom: 50px;
+  }
+  .axure__title {
+    font-size: 24px;
+  }
+}

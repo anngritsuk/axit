@@ -49,6 +49,7 @@
 }
 
 .form-input {
+  width: 50%;
   display: flex;
   flex-direction: column;
   margin-right: 30px;
@@ -65,15 +66,19 @@
 
   border-bottom: 2px solid #bdbdbd;
   margin-bottom: 20px;
-  width: 571px;
+  max-width: 571px;
+  width: 100%;
 }
 
 .textarea {
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 .contact-form__textarea {
   resize: none;
+  max-width: 569px;
+  width: 100%;
   border: none;
   height: 197.9px;
 
@@ -120,4 +125,32 @@
 
 .form {
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .textarea {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .contact-form__textarea {
+    height: 182px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .form-input {
+    width: 80%;
+  }
+
+  .contact-form__button {
+    width: 288px;
+  }
+  .contact__subtitle {
+    font-size: 14px;
+  }
 }

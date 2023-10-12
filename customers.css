@@ -49,6 +49,7 @@
 .customers-review-block {
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 .customers-review__text {
   display: flex;
@@ -103,3 +104,55 @@
   font-size: 18px;
   font-weight: 400;
 }
+@media (max-width: 1125px) {
+  .customers-review__text {
+    font-size: 16px;
+  }
+  .customers__title {
+    font-size: 30px;
+  }
+  .customers__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .customers-review__text {
+    font-size: 14px;
+  }
+  .review-person__name {
+    font-size: 18px;
+  }
+  .customers__title {
+    font-size: 24px;
+  }
+  .customers-review {
+    gap: 20px;
+  }
+
+  .customers__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .customers-review-block {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .customers-review__text {
+    padding: 2px;
+  }
+  .customers-review-block--2 {
+    display: none;
+  }
+}
+/* 
+@media (max-width: 650px) {
+  .customers-review-block {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+} */

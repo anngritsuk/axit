@@ -36,3 +36,41 @@
   font-size: 18px;
   line-height: normal;
 }
+
+@media (max-width: 1025px) {
+  .footer-icons {
+    gap: 27px;
+  }
+  .footer-icons__app {
+    width: 46px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer-icons {
+    gap: 20px;
+  }
+  .footer-icons__app {
+    width: 35px;
+    height: 35px;
+  }
+  .footer-comment {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 388px) {
+  .footer-icons {
+    gap: 17px;
+  }
+  .footer-icons__app {
+    width: 26px;
+    height: 26px;
+  }
+  .footer-comment {
+    margin-top: 42px;
+    font-size: 14px;
+    margin-bottom: 29px;
+  }
+}

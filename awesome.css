@@ -51,6 +51,10 @@
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-style: normal;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container__main-block-text {
@@ -66,4 +70,53 @@
 
   width: 170px;
   height: 1px;
+}
+
+@media (max-width: 1100px) {
+  .container__main-block-title {
+    font-size: 20px;
+  }
+  .container__main-block-text {
+    font-size: 16px;
+  }
+
+  .container__awesome-title {
+    font-size: 26px;
+  }
+
+  .container__awesome-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1025px) {
+  /* .container__main-block {
+    width: 317px;
+  } */
+  .container__main-block-title {
+    font-size: 18px;
+  }
+  .container__main-block-text {
+    font-size: 14px;
+  }
+
+  .container__awesome-title {
+    font-size: 24px;
+  }
+
+  .container__awesome-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 325px) {
+  .container__main-block-img {
+    width: 147px;
+    height: 147px;
+    margin: 0 auto;
+  }
+  .container__main {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
 }
